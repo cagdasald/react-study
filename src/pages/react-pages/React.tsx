@@ -1,5 +1,5 @@
 import React from 'react';
-import StudyCard from '../components/StudyCard';
+import StudyCard from '../../components/StudyCard';
 
 const ReactPage: React.FC = () => {
   return (
@@ -75,6 +75,13 @@ const ReactPage: React.FC = () => {
           title="Testing"
           description="RTL, Jest, Cypress ve Playwright ile React uygulamalarında kapsamlı test stratejileri."
           icon="🧪"
+        />
+        
+        <StudyCard
+          to="/documentation"
+          title="Documentation & Quality"
+          description="Storybook, Chromatic, JSDoc ve quality tools ile React uygulamalarında dokümantasyon ve kalite."
+          icon="📚"
         />
       </div>
     </div>

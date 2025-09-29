@@ -44,7 +44,7 @@ const CodeBlock: React.FC<CodeBlockProps> = ({
       )}
       
       <pre className="bg-black/50 rounded-lg p-4 overflow-x-auto">
-        <code className={`language-${language} text-light-blue text-sm`}>
+        <code className={`language-${language} text-pink text-sm`}>
           {code}
         </code>
       </pre>

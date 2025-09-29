@@ -1,5 +1,5 @@
 import React from 'react';
-import StudyCard from '../components/StudyCard';
+import StudyCard from '../../components/StudyCard';
 
 const VuePage: React.FC = () => {
   return (
