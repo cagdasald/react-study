@@ -38,6 +38,69 @@ const Home: React.FC = () => {
           description="Svelte'in tüm konularını öğrenin. Stores, SvelteKit, animations."
           icon="🧡"
         />
+        
+        <StudyCard
+          to="/performance-optimization"
+          title="Performance Optimization"
+          description="React uygulamalarında performance optimization teknikleri ve best practices."
+          icon="🚀"
+        />
+        
+        <StudyCard
+          to="/js-ts"
+          title="JavaScript & TypeScript"
+          description="Modern JavaScript ve TypeScript'in tüm konularını detaylı örneklerle öğrenin."
+          icon="⚡"
+        />
+        
+        <StudyCard
+          to="/cs-intro"
+          title="Computer Science Fundamentals"
+          description="Algoritmalar, veri yapıları, Big-O, memory management ve operating systems temelleri."
+          icon="🧠"
+        />
+        
+        <StudyCard
+          to="/backend"
+          title="Backend & Full-Stack"
+          description="REST, GraphQL, authentication, databases, caching ve message queues ile backend development."
+          icon="🖥️"
+        />
+        
+        <StudyCard
+          to="/software-architecture"
+          title="Software Architecture & Design Patterns"
+          description="SOLID principles, Clean Architecture, MVC, MVVM, DDD ve GoF design patterns."
+          icon="🏗️"
+        />
+        
+        <StudyCard
+          to="/devops-cloud"
+          title="DevOps & Cloud"
+          description="Git, CI/CD, Docker, Kubernetes, Infrastructure as Code ve cloud platforms (AWS, GCP, Azure)."
+          icon="☁️"
+        />
+        
+        <StudyCard
+          to="/system-design"
+          title="System Design"
+          description="Scalability, load balancing, sharding, CAP theorem, CDN ve monitoring ile system design."
+          icon="🔧"
+        />
+        
+        <StudyCard
+          to="/security"
+          title="Security"
+          description="OWASP Top 10, HTTPS, authentication, authorization, encryption ve secure coding practices."
+          icon="🔒"
+        />
+        
+        <StudyCard
+          to="/teamwork"
+          title="Teamwork & Leadership"
+          description="Agile/Scrum, Git strategies, code review, mentorship ve project management best practices."
+          icon="👥"
+        />
       </div>
     </div>
   );

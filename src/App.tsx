@@ -15,6 +15,15 @@ import StylingStrategies from './pages/react-pages/7-styling-strategies/styling-
 import StateManagement from './pages/react-pages/8-state-management/state-management'
 import Test from './pages/react-pages/9-test/test'
 import Documentation from './pages/react-pages/10-documentation/documentation'
+import PerformanceOptimization from './pages/performance-optimization-pages/PerformanceOptimization'
+import JsTs from './pages/js-ts-pages/JsTs'
+import CsIntro from './pages/cs-intro-pages/CsIntro'
+import Backend from './pages/backend-pages/Backend'
+import SoftwareArchitecture from './pages/software-architecture-pages/SoftwareArchitecture'
+import DevopsCloud from './pages/devops-cloud-pages/DevopsCloud'
+import SystemDesign from './pages/system-design-pages/SystemDesign'
+import Security from './pages/security-pages/Security'
+import Teamwork from './pages/teamwork-pages/Teamwork'
 
 function App() {
   return (
@@ -28,6 +37,15 @@ function App() {
             <Route path="/vue" element={<VuePage />} />
             <Route path="/angular" element={<AngularPage />} />
             <Route path="/svelte" element={<SveltePage />} />
+            <Route path="/performance-optimization" element={<PerformanceOptimization />} />
+            <Route path="/js-ts" element={<JsTs />} />
+            <Route path="/cs-intro" element={<CsIntro />} />
+            <Route path="/backend" element={<Backend />} />
+            <Route path="/software-architecture" element={<SoftwareArchitecture />} />
+            <Route path="/devops-cloud" element={<DevopsCloud />} />
+            <Route path="/system-design" element={<SystemDesign />} />
+            <Route path="/security" element={<Security />} />
+            <Route path="/teamwork" element={<Teamwork />} />
             <Route path="/react-internals" element={<ReactInternals />} />
             <Route path="/hooks" element={<Hooks />} />
             <Route path="/advanced-patterns" element={<ReactAdvancedComponentPatterns />} />

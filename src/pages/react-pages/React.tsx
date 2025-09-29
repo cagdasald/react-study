@@ -76,13 +76,6 @@ const ReactPage: React.FC = () => {
           description="RTL, Jest, Cypress ve Playwright ile React uygulamalarında kapsamlı test stratejileri."
           icon="🧪"
         />
-        
-        <StudyCard
-          to="/documentation"
-          title="Documentation & Quality"
-          description="Storybook, Chromatic, JSDoc ve quality tools ile React uygulamalarında dokümantasyon ve kalite."
-          icon="📚"
-        />
       </div>
     </div>
   );

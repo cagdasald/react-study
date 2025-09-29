@@ -12,7 +12,7 @@ const Header: React.FC = () => {
             className="flex items-center space-x-3 text-text-default hover:text-secondary-dark transition-colors duration-300"
           >
             <div className="w-10 h-10 bg-pink rounded-xl flex items-center justify-center shadow-md">
-              <span className="text-white font-bold text-lg">R</span>
+              <span className="text-white font-bold text-lg">D</span>
             </div>
             <span className='text-md text-text-light'>Developer's Handbook - Cagdas Aldogan</span>
           </Link>
