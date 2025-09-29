@@ -1,7 +1,7 @@
 import React from 'react';
-import LessonCard from '../../components/LessonCard';
-import CodeBlock from '../../components/CodeBlock';
-import Badge from '../../components/Badge';
+import LessonCard from '../../../components/LessonCard';
+import CodeBlock from '../../../components/CodeBlock';
+import Badge from '../../../components/Badge';
 
 const ReactInternals: React.FC = () => {
   return (
